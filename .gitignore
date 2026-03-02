@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data & Models (large files - don't commit)
+data/benign/*
+data/ransomware/*
+data_large/benign/*
+data_large/ransomware/*
+models/*.pkl
+quarantine/*
+
+# CSV files (can be regenerated)
+data/features/*.csv
+data_large/features/*.csv
+
+# Logs & temp files
+*.log
+train_output.log
+.pytest_cache/
+results/
+
+# Test outputs
+test_results/
+*.pyc
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep structure but ignore data
+!data/.gitkeep
+!data_large/.gitkeep
+!models/.gitkeep
+!quarantine/.gitkeep
