@@ -42,7 +42,6 @@ data/benign/*
 data/ransomware/*
 data_large/benign/*
 data_large/ransomware/*
-models/*.pkl
 quarantine/*
 
 # CSV files (can be regenerated)
